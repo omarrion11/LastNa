@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtmAscend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtAscend"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text= "um-uli, sumang-at"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/txtAscend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:fontFamily="Arial"
+        android:text="Ascend"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textStyle="italic" />
+    
+      <Button
+        android:id="@+id/btnfavorites"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtmAscend"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="99dp"
+        android:drawableLeft="@drawable/ic_fa_star"
+        android:text="Add To Favorites" />
+      
+</RelativeLayout>

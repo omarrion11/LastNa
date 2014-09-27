@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+ 
+
+    <TextView
+        android:id="@+id/txtAngry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:text="Angry"
+        android:fontFamily="Arial"
+        android:textStyle="italic"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/txtmAngry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtAngry"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="marurud, maassar, nauyong, naunget,"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btnfavorites"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtmAngry"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="99dp"
+        android:drawableLeft="@drawable/ic_fa_star"
+        android:text="Add To Favorites" />
+
+</RelativeLayout>
